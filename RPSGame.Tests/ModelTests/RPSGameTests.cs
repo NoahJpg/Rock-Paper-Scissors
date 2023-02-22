@@ -1,6 +1,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using RPSGame.Models;
 
+
 namespace RPSGame.Tests
 {
   [TestClass]
@@ -8,10 +9,17 @@ namespace RPSGame.Tests
   {
     // Test methods go here
     [TestMethod]
-    public void NameOfMethodWeAreTesting_DescriptionOfBehavior_ExpectedReturnValue()
+    public void PlayerInput_AcceptAndStoreInputsFromUser_ExpectInputToExist()
     {
       // any necessary logic to prep for test; instantiating new classes, etc.
-      Assert.AreEqual(EXPECTED RESULT, CODE TO TEST);
+
+      //Arrange
+      string player1 = "rock";
+      string player2 = "scissors";
+      RockPaperScissors newGame = new RockPaperScissors();
+      
+      
+      Assert.AreEqual(player1, "rock");
     }
   }
 }
