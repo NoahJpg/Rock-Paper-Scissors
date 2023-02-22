@@ -1,10 +1,10 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using ProjectName.Models;
+using RPSGame.Models;
 
-namespace ProjectName.Tests
+namespace RPSGame.Tests
 {
   [TestClass]
-  public class ClassNameTests
+  public class RockPaperScissorsTests
   {
     // Test methods go here
     [TestMethod]

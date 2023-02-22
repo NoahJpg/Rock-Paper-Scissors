@@ -1,8 +1,8 @@
-# _Project Name_
+# _Rock, Paper, Scissors_
 
-#### By _**Richard Cha**_
+#### By _**Noah Atkinson & Brishna Bakshev & Owen Brown**_
 
-#### _Choose from Pastry or Bread, give amount, and return total cost_
+#### __
 
 ## Technologies Used
 
@@ -34,7 +34,7 @@ _If the user is done adding items to the cart, the program will display their ca
 
 ## License
 
-_If you have any issues or have questions, ideas or concerns please contact me at [charichard09@gmail.com](mailto:charichard09@gmail.com)_
+_If you have any issues or have questions, ideas or concerns please contact me at [noahaatkinson1.1@gmail.com](mailto:noahatkinson1.1@gmail.com)_
 
 MIT License
 

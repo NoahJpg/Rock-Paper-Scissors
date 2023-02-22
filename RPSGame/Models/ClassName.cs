@@ -1,6 +1,6 @@
-namespace ProjectName.Models
+namespace RPSGame.Models
 {
-  public class ClassName
+  public class RockPaperScissors
   {
     // properties, constructors, methods, etc. go here
   }
