@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/antonychase/Documents/VS_code/Epicodus/C#/ProjectName.Solution/ProjectName.Tests/ProjectName.Tests.csproj": {}
+    "/Users/nocaves/Desktop/EPICODUS/Rock-Paper-Scissors/ProjectName.Tests/ProjectName.Tests.csproj": {}
   },
   "projects": {
-    "/Users/antonychase/Documents/VS_code/Epicodus/C#/ProjectName.Solution/ProjectName.Tests/ProjectName.Tests.csproj": {
+    "/Users/nocaves/Desktop/EPICODUS/Rock-Paper-Scissors/ProjectName.Tests/ProjectName.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/antonychase/Documents/VS_code/Epicodus/C#/ProjectName.Solution/ProjectName.Tests/ProjectName.Tests.csproj",
+        "projectUniqueName": "/Users/nocaves/Desktop/EPICODUS/Rock-Paper-Scissors/ProjectName.Tests/ProjectName.Tests.csproj",
         "projectName": "ProjectName.Tests",
-        "projectPath": "/Users/antonychase/Documents/VS_code/Epicodus/C#/ProjectName.Solution/ProjectName.Tests/ProjectName.Tests.csproj",
-        "packagesPath": "/Users/antonychase/.nuget/packages/",
-        "outputPath": "/Users/antonychase/Documents/VS_code/Epicodus/C#/ProjectName.Solution/ProjectName.Tests/obj/",
+        "projectPath": "/Users/nocaves/Desktop/EPICODUS/Rock-Paper-Scissors/ProjectName.Tests/ProjectName.Tests.csproj",
+        "packagesPath": "/Users/nocaves/.nuget/packages/",
+        "outputPath": "/Users/nocaves/Desktop/EPICODUS/Rock-Paper-Scissors/ProjectName.Tests/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/antonychase/.nuget/NuGet/NuGet.Config"
+          "/Users/nocaves/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -26,8 +26,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/antonychase/Documents/VS_code/Epicodus/C#/ProjectName.Solution/ProjectName/ProjectName.csproj": {
-                "projectPath": "/Users/antonychase/Documents/VS_code/Epicodus/C#/ProjectName.Solution/ProjectName/ProjectName.csproj"
+              "/Users/nocaves/Desktop/EPICODUS/Rock-Paper-Scissors/ProjectName/ProjectName.csproj": {
+                "projectPath": "/Users/nocaves/Desktop/EPICODUS/Rock-Paper-Scissors/ProjectName/ProjectName.csproj"
               }
             }
           }
@@ -75,17 +75,17 @@
         }
       }
     },
-    "/Users/antonychase/Documents/VS_code/Epicodus/C#/ProjectName.Solution/ProjectName/ProjectName.csproj": {
+    "/Users/nocaves/Desktop/EPICODUS/Rock-Paper-Scissors/ProjectName/ProjectName.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/antonychase/Documents/VS_code/Epicodus/C#/ProjectName.Solution/ProjectName/ProjectName.csproj",
+        "projectUniqueName": "/Users/nocaves/Desktop/EPICODUS/Rock-Paper-Scissors/ProjectName/ProjectName.csproj",
         "projectName": "ProjectName",
-        "projectPath": "/Users/antonychase/Documents/VS_code/Epicodus/C#/ProjectName.Solution/ProjectName/ProjectName.csproj",
-        "packagesPath": "/Users/antonychase/.nuget/packages/",
-        "outputPath": "/Users/antonychase/Documents/VS_code/Epicodus/C#/ProjectName.Solution/ProjectName/obj/",
+        "projectPath": "/Users/nocaves/Desktop/EPICODUS/Rock-Paper-Scissors/ProjectName/ProjectName.csproj",
+        "packagesPath": "/Users/nocaves/.nuget/packages/",
+        "outputPath": "/Users/nocaves/Desktop/EPICODUS/Rock-Paper-Scissors/ProjectName/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/antonychase/.nuget/NuGet/NuGet.Config"
+          "/Users/nocaves/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -120,6 +120,9 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
