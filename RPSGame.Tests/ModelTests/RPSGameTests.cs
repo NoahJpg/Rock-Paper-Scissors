@@ -40,5 +40,6 @@ namespace RPSGame.Tests
 
       Assert.AreEqual("Player 2 Wins!!!", result);
     }
+    
   }
 }

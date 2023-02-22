@@ -7,35 +7,18 @@ namespace RPSViewGame
 {
   class Program
   {
-    // static void Main(string[] args)
+  
     static void Main()
     {
-
+      Console.WriteLine("Player 1 = enter your choice of: rock, paper, or scissors");
+      string input1 = Console.ReadLine().ToLower();
+      Console.WriteLine("Player 2 = enter your choice of: rock, paper, or scissors");
+      string input2 = Console.ReadLine().ToLower();
       RockPaperScissors game = new RockPaperScissors();
-      string result = game.UserInputOption("rock", "scissors");
+      string result = game.UserInputOption(input1, input2);
       Console.WriteLine(result);
 
-
-
-
-
-
-      // WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
-
-      // builder.Services.AddControllersWithViews();
-
-      // WebApplication app = builder.Build();
-
-      // app.UseHttpsRedirection();
-      // app.UseStaticFiles();
-      // app.UseRouting();
-
-      // app.MapControllerRoute(
-      //   name: "default",
-      //   pattern: "{controller=Home}/{action=Index}/{id?}"
-      // );
-
-      // app.Run();
+      
     }
   }
 }

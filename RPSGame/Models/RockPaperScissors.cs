@@ -1,8 +1,12 @@
+using System;
+using System.Linq;
+
+
 namespace RPSGame.Models
 {
   public class RockPaperScissors
   {
-    private string[] _gameOptions = {"rock", "paper", "scissors"};
+    private readonly string[] _gameOptions = {"rock", "paper", "scissors"};
     private string _playerOneInput;
     private string _playerTwoInput;
 
@@ -11,7 +15,10 @@ namespace RPSGame.Models
       _playerOneInput = input1;
       _playerTwoInput = input2;
 
-      if (input1 == input2)
+    if (!_gameOptions.Contains(input1) || !_gameOptions.Contains(input2))
+      throw new ArgumentException("Invalid choice");
+
+      else if (input1 == input2)
       {  
         return "Tie";
       }
